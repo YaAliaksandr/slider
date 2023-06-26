@@ -1,0 +1,36 @@
+.slider {
+	background-color: peru;
+}
+
+/* .slider .slider__slides {} */
+
+.slider .slider__slides {
+	background-color: yellow;
+}
+
+.slider .slider__slides:first-child {
+	background-color: green;
+}
+
+.slider .slider__slides:nth-child(2) {
+	background-color: rgb(0, 76, 255);
+}
+
+.slider .slider__slides:nth-child(3) {
+	background-color: rgb(255, 0, 166);
+}
+
+
+
+
+.slider .slider__hdl {
+	background-color: red;
+}
+
+.slider .slider__lead {}
+
+.slider .slider__link {}
+
+.slider .slider__nav {}
+
+.slider .slider__btn {}
