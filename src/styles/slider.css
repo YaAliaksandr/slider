@@ -1,25 +1,55 @@
+:root {
+	--heightForSlider: 400px;
+}
+
 .slider {
 	background-color: peru;
+	margin-top: 300px;
+	overflow: hidden;
+	min-height: var(--heightForSlider);
 }
 
 /* .slider .slider__slides {} */
+.slider .mainDiv {
+	position: relative;
+
+
+}
 
 .slider .slider__slides {
-	background-color: yellow;
+	/* background-color: yellow; */
+	position: absolute;
+	top: 0;
+	width: 100%;
+	min-height: var(--heightForSlider);
 }
 
 .slider .slider__slides:first-child {
+	background-image: url(../images/car.jpg);
 	background-color: green;
+	left: 0;
 }
 
 .slider .slider__slides:nth-child(2) {
+	background-image: url(../images/car\(1\).jpg);
 	background-color: rgb(0, 76, 255);
+	left: 100%;
 }
 
-.slider .slider__slides:nth-child(3) {
+.slider .slider__slides:last-child {
+	background-image: url(../images/car\(2\).jpg);
 	background-color: rgb(255, 0, 166);
+	left: 200%;
 }
 
+.slider .slider__box {
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+	width: 100%;
+	box-sizing: border-box;
+
+}
 
 
 
