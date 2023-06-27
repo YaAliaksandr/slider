@@ -187,11 +187,12 @@
 
 .slider .slider__link::after {
 	content: '';
-	background-image: url(../images/211620_b_right_arrow_icon\ \(1\).svg);
+	background-image: url(../images/read-more-icon.svg);
 	width: 30px;
 	height: 30px;
 	display: inline-block;
 	background-size: contain;
+	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin-top: -3px;
 
@@ -212,7 +213,7 @@
 	width: 30px;
 	height: 30px;
 	border: none;
-	background: url(../images/211620_b_right_arrow_icon\ \(1\).svg) no-repeat;
+	background: url(../images/read-more-icon.svg) no-repeat;
 	/* background-repeat: no-repeat; убираем и вместо bgi используем его сокращение и туда вписываем no-repeat в него */
 	background-size: contain;
 	overflow: hidden;
